@@ -3,6 +3,8 @@ import { Layout, Button, Drawer, Modal, Input } from "antd";
 import { MenuOutlined, CloseOutlined } from "@ant-design/icons";
 import LoginModal from "../LoginModal/LoginModal";
 import RegisterModal from "../RegisterModal/RegisterModal";
+// Images
+import Logo from "../../assets/images/logo.webp"
 
 const { Header } = Layout;
 
@@ -32,7 +34,7 @@ const AppHeader = () => {
                     </ul>
 
                     <div className="logo">
-                        <img src="src/assets/images/logo.webp" alt="Logo" />
+                        <img src={Logo} alt="Logo" />
                     </div>
                 </div>
 

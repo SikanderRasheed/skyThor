@@ -29,7 +29,7 @@ const Tabs = () => {
                         <div className="col-lg-4">
                             <div className="slot_card_wrapper">
                                 <div className="slot-card">
-                                    <img src={Tab1} alt="tab" className="slot-img" />
+                                    <img src={Tab1} alt="tab" className="slot-img"   loading="eager"/>
 
                                     <div className="slot-content">
                                         <h2>Valley Of The Gods</h2>
@@ -985,7 +985,7 @@ const Tabs = () => {
                     <img src={Promotions} alt="FNdjwf" className='img-fluid' />
                 </div>
                 <div className="img py-3">
-                    <img src={ScreenShot} alt="dcfsf" className='img-fluid' />
+                    <img src={ScreenShot} alt="dcfsf" className='img-fluid'   loading="eager"/>
                 </div>
             </section>
         </>
