@@ -1,0 +1,750 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: black;
+}
+
+
+ul li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #111111;
+}
+
+a {
+    text-decoration: none;
+}
+
+.captilized {
+    text-transform: capitalize;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.rotate-img {
+    transform: scaleX(-1);
+}
+
+.oswald {
+    font-family: "Oswald", sans-serif;
+}
+
+/* Font Weight */
+
+.f200 {
+    font-weight: 200;
+}
+
+.f300 {
+    font-weight: 300;
+}
+
+.f400 {
+    font-weight: 400;
+}
+
+.f500 {
+    font-weight: 500;
+}
+
+.f600 {
+    font-weight: 600;
+}
+
+.f700 {
+    font-weight: 700;
+}
+
+.f800 {
+    font-weight: 800;
+}
+
+.f900 {
+    font-weight: 900;
+}
+
+/* Fonts Size */
+
+.f-60 {
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.f-53 {
+    font-size: 53px;
+    line-height: 67px;
+}
+
+.f-50 {
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.f-45 {
+    font-size: 45px;
+    line-height: 55px;
+}
+
+.f-40 {
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.f-35 {
+    font-size: 35px;
+    line-height: 45px;
+}
+
+.f-32 {
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.f-28 {
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.f-26 {
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.f-24 {
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.f-22 {
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.f-20 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.f-18 {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.f-16 {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.f-14 {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.f-10 {
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.f-12 {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+/* Buttons Start */
+
+.playBtn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-image: linear-gradient(315deg, #c44e00, #f60 50%);
+    cursor: pointer;
+}
+
+.playBtn a img {
+    width: 30px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+.text-yellow {
+    color: #a83c1c;
+}
+
+/* Buttons End */
+
+/* Top Bar Start */
+
+.top_bar {
+    background-image: url(../assets/images/topbar-bg.png);
+    padding: 0px 0 10px;
+}
+
+.top_bar .img {
+    width: 100px;
+    height: 90px;
+}
+
+/* Top bar End */
+
+
+.custom-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #040b18;
+    height: 60px;
+    padding: 0 12px;
+    position: relative;
+}
+
+/* Glow effect */
+.left-menu .ant-menu-item-selected,
+.left-menu .ant-menu-item:hover {
+    color: #ffddc2 !important;
+    text-shadow: 0px 0px 10px #ff8c4a;
+}
+
+/* Center Logo */
+.logo img {
+    width: 160px;
+    height: 50px;
+    margin-top: 5px;
+    object-fit: contain;
+}
+
+/* Right side */
+.right-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-btn {
+    background: transparent !important;
+    border: 1px solid #ff6a3b !important;
+    color: white;
+    font-weight: bold;
+}
+
+.register-btn {
+    background: #ff6a3b !important;
+    color: white !important;
+    font-weight: bold;
+    border: none;
+}
+
+.lang-icon {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+:where(.css-dev-only-do-not-override-dbp7pc).ant-menu-light.ant-menu-horizontal>.ant-menu-item:hover::after {
+    border-bottom-width: inherit;
+    border-bottom-color: inherit;
+}
+
+/* Mobile Menu Button */
+.mobile-menu-btn {
+    display: none;
+    color: white;
+    border: none;
+    background: transparent;
+    font-size: 22px;
+}
+
+/* Banner Sec Start */
+
+
+.banner_sec {
+    position: relative;
+}
+
+.banner_sec .slick-prev {
+    left: 30px;
+}
+
+.banner_sec .slick-next {
+    right: 30px;
+    transform: rotate(140deg);
+}
+
+.banner_sec .slick-prev:before,
+.banner_sec .slick-next:before {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    border: 5px solid #fff;
+    border-right: none;
+    border-bottom: none;
+    width: 25px;
+    height: 25px;
+    -moz-osx-font-smoothing: grayscale;
+    display: block;
+}
+
+
+/* REMOVE ANT DESIGN DEFAULT PADDING */
+.sky-login-modal .ant-modal-content {
+    background: transparent;
+    box-shadow: none;
+}
+
+.ant-modal-container {
+    background-color: transparent !important;
+    padding: 0 !important;
+}
+
+/* MAIN BOX */
+.sky-login-wrapper {
+    background: #0b0f14;
+    border-radius: 8px;
+    padding: 28px 30px 30px;
+    position: relative;
+    border: 1px solid #1e293b;
+}
+
+/* CLOSE BUTTON */
+.sky-close {
+    position: absolute;
+    right: 14px;
+    top: 12px;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* TITLE */
+.sky-title {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+/* INPUTS */
+.sky-input {
+    background-color: rgba(189, 189, 189, 0.05);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(204, 204, 204, 0.25);
+    border-image: initial;
+    box-shadow: transparent 0px 0px 5px;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 1.42857;
+    height: 36px;
+    color: rgba(255, 255, 255, 0.9);
+    padding: 6px 12px;
+    transition: 0.25s ease-in-out, box-shadow 0.5s;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.sky-input::placeholder {
+    color: rgba(134, 134, 134, 0.686);
+    font-weight: 500;
+}
+
+/* LOGIN BUTTON (ORANGE IMAGE COLOR) */
+.sky-login-btn {
+    box-shadow: none;
+    background: rgb(168, 60, 28);
+    border-color: rgb(124, 44, 21);
+    position: relative;
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+    color: rgb(255, 255, 255) !important;
+    border-width: 1px;
+    transition: background-color 0.25s, border-color 0.25s, opacity 0.25s, color 0.25s, box-shadow 0.25s;
+    overflow: hidden;
+    border-radius: 4px;
+    display: block !important;
+    width: 100%;
+    padding: 6px 8px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+}
+
+/* FORGOT */
+.sky-forgot {
+    /*
+    text-align: center;
+    margin: 12px 0 18px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer; */
+    font-weight: 700;
+    position: relative;
+    transition: text-shadow 0.2s, color 0.2s;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    white-space: nowrap;
+    text-decoration: underline;
+    margin: 12px 0 40px;
+    display: block;
+    text-align: center;
+}
+
+.sky-forgot:hover {
+    text-shadow: rgb(221, 90, 51) 0px 0px 8px, rgb(247, 214, 204) 0px 0px 4px, rgb(255, 255, 255) 0px 0px 2px;
+    color: white;
+}
+
+
+/* REGISTER BUTTON */
+.sky-register-btn {
+    box-shadow: rgb(168, 60, 28) 0px 0px 5px !important;
+    border-color: rgb(190, 68, 32);
+    background-color: rgba(0, 0, 0, 0.25);
+    border-width: 2px;
+    border-style: solid;
+    border-image: initial;
+    position: relative;
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+    color: rgb(255, 255, 255) !important;
+    overflow: hidden;
+    border-radius: 4px;
+    width: 100%;
+    padding: 6px 8px;
+    margin-bottom: 15px;
+}
+
+.sky-register-wrapper .label {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+/* TRY GAMES */
+.sky-try-btn {
+    box-shadow: rgb(168, 60, 28) 0px 0px 5px !important;
+    border-color: rgb(190, 68, 32);
+    background-color: rgba(0, 0, 0, 0.25);
+    border-width: 2px;
+    border-style: solid;
+    border-image: initial;
+    position: relative;
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+    color: rgb(255, 255, 255) !important;
+    overflow: hidden;
+    border-radius: 4px;
+    width: 100%;
+    padding: 6px 8px;
+}
+
+
+.sky-register-wrapper {
+  background: linear-gradient(180deg, #0a0f14, #04070b);
+  border: 1px solid #1f2937;
+  border-radius: 6px;
+  padding: 22px 24px 20px;
+  color: #fff;
+  position: relative;
+  max-height: 600px;
+    overflow-y: scroll;
+}
+
+.title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+
+.register-layout {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 18px;
+}
+
+.sky-register-wrapper input,
+.sky-register-wrapper select {
+  height: 40px;
+  background: rgba(189, 189, 189, 0.05);
+  border: 2px solid rgba(204, 204, 204, 0.25);
+  border-radius: 4px;
+  padding: 0 12px;
+  color: #fff;
+  font-size: 14px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+::placeholder {
+  color: #6b7280;
+}
+
+.row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.phone {
+  grid-template-columns: 70px 1fr;
+}
+
+select.country {
+  border-color: #22c55e;
+  box-shadow: 0 0 0 1px rgba(34,197,94,.4);
+}
+
+.sky-register-wrapper {
+  background: linear-gradient(180deg, #0a0f14, #04070b);
+  border: 1px solid #1f2937;
+  border-radius: 6px;
+  padding: 22px 24px 20px;
+  color: #fff;
+  position: relative;
+}
+
+.sky-register-wrapper {
+  background: linear-gradient(180deg, #0a0f14, #04070b);
+  border: 1px solid #1f2937;
+  border-radius: 6px;
+  padding: 22px 24px 20px;
+  color: #fff;
+  position: relative;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.checkbox input {
+  width: 15px;
+  height: 15px;
+  accent-color: #e5e7eb;
+  margin-bottom: 0;
+}
+
+.create-account-btn {
+  margin-top: 14px;
+  height: 44px;
+  background: #b24a1c;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.bottom-links {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.bottom-links a {
+  display: block;
+  color: #fff;
+  text-decoration: underline;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+
+
+/* Header End */
+/* Banner Start */
+.banner_sec .slide {
+    position: relative;
+}
+
+.banner_sec .slider_btn {
+    width: 230px;
+    font-size: 20px;
+    float: right;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 5px #00000078;
+    background: #a83c1c;
+    border-color: #7c2c15;
+    border-width: 1px;
+    transition: background-color .25s, border-color .25s, opacity .25s, color .25s, box-shadow .25s;
+    overflow: hidden;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+}
+
+/* Banner Sec End */
+
+/* Tabs Start */
+
+.tabs_sec .tabs_bar {
+    position: sticky;
+    top: 10px;
+    z-index: 99;
+}
+
+.slot_card_wrapper {
+    position: relative;
+    height: 100%;
+}
+
+.slot-card {
+    /* height: 390px; */
+    /* height: 25vw; */
+    /* position: relative; */
+    /* overflow: hidden; */
+    cursor: pointer;
+    background: white;
+    transition: all 0.4s ease-in-out;
+    margin-top: 22px;
+}
+
+.slot-card:hover {
+    /* height: 100%; */
+    padding: 20px 20px 0;
+    border-radius: 15px;
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.05) translateZ(0px);
+    box-shadow: 0 0 30px #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* height: auto;
+    width: 100%; */
+    z-index: 3;
+}
+
+/* DEFAULT: ONLY OUTER IMAGE SHOWS */
+.slot-img {
+    width: 100%;
+    /* object-fit: contain; */
+}
+
+/* HIDDEN CONTENT BOX */
+.slot-content {
+    /* height: 100%; */
+    text-align: center;
+    padding: 15px 0 0;
+    transition: 0.4s ease;
+    display: none;
+}
+
+.slot-card:hover .slot-content {
+    display: block;
+}
+
+/* INNER IMAGE SAME AS REFERENCE */
+.slot-inner-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.slot-card .slot-content h2 {
+    color: #a83c1c;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 10px 10px;
+    margin-bottom: 0;
+}
+
+.slot-card .slot-content h4 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.slot-card .wrapper {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    font-size: 0;
+    padding: 5px 2px;
+    box-sizing: inherit;
+}
+
+.slot-card .wrapper .info {
+    width: 100%;
+    font-size: 0;
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 5px;
+}
+
+/* Text Styling */
+
+.login-msg {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #777;
+}
+
+
+/* Tabs End */
+
+/* Responsive */
+@media (max-width: 900px) {
+    .left-menu {
+        display: none;
+    }
+
+    .right-actions {
+        display: none;
+    }
+
+    .mobile-menu-btn {
+        display: block;
+    }
+
+    .logo img {
+        margin: 0 auto;
+    }
+}
