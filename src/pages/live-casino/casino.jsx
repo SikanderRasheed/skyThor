@@ -1,10 +1,8 @@
-import React, { Children } from 'react'
+import React from 'react'
 import Banner from '../../components/Banner/Banner'
 import CustomTabs from '../../components/shared/tabs'
-import Cards from '../../components/shared/card';
-import Promotion from '../../components/Promotion/Promotion';
-import Winner from '../../components/Winner/Winner';
-import Footer from '../../components/Footer/Footer';
+import Promotion from '../../components/Promotion/Promotion'
+import Winner from '../../components/Winner/Winner'
 // Images
 import Tab1 from "../../assets/images/tabs1.webp"
 import Tab2 from "../../assets/images/tab2.webp"
@@ -25,21 +23,7 @@ import Card2 from "../../assets/images/card2.webp"
 import Card3 from "../../assets/images/card3.webp"
 import Card4 from "../../assets/images/card4.webp"
 
-const Home = () => {
-
-    const newGames = [
-        {
-            image: Tab3,
-            title: "Gates Of Olympus",
-            provider: "Pragmatic Play",
-            info: [
-                { label: "Reels", value: "6" },
-                { label: "Lines", value: "20" },
-                { label: "RTP", value: "96.5%" },
-            ],
-        },
-    ];
-
+const casino = () => {
     const items = [
         {
             key: "top",
@@ -3705,7 +3689,6 @@ const Home = () => {
 
     // Promotion 
     const promotionCardContent = {
-        sectionId: "promotions",
         title: "Promotions",
         card: [
             {
@@ -3754,7 +3737,6 @@ const Home = () => {
     }
     // Tournament 
     const tournamentCardContent = {
-        sectionId: "tournament",
         title: "Tournaments",
         card: [
             {
@@ -3801,7 +3783,6 @@ const Home = () => {
             }
         ]
     }
-
     return (
         <>
             <Banner />
@@ -3809,9 +3790,8 @@ const Home = () => {
             <Promotion data={promotionCardContent} />
             <Promotion data={tournamentCardContent} />
             <Winner />
-            <Footer />
         </>
     )
 }
 
-export default Home
+export default casino

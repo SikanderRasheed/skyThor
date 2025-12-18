@@ -15,10 +15,10 @@ const AppHeader = () => {
 
     const menuItems = [
         { key: "1", label: "CASINO", href: "/" },
-        { key: "2", label: "LIVE CASINO", href: "/" },
+        { key: "2", label: "LIVE CASINO", href: "#tabs" },
         { key: "3", label: "SPORT BETTING", href: "/" },
-        { key: "4", label: "PROMOTIONS", href: "/" },
-        { key: "5", label: "TOURNAMENTS", href: "/" }
+        { key: "4", label: "PROMOTIONS", href: "#promotions" },
+        { key: "5", label: "TOURNAMENTS", href: "#tournament" }
     ];
 
     return (
@@ -28,7 +28,7 @@ const AppHeader = () => {
                     <ul className="d-flex gap-3 mb-0">
                         {menuItems.map(item => (
                             <li key={item.key}>
-                                <a className="text-white f700">{item.label}</a>
+                                <a href={item.href} className="text-white f700">{item.label}</a>
                             </li>
                         ))}
                     </ul>
