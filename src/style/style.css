@@ -351,6 +351,12 @@ a {
     padding: 0 !important;
 }
 
+
+.learnMoreModal {
+    max-height: 650px;
+    overflow-y: scroll;
+}
+
 /* MAIN BOX */
 .sky-login-wrapper {
     background: #0b0f14;
@@ -845,7 +851,7 @@ select.country {
     left: 50%;
     transform: translateX(-50%);
     bottom: 60px;
-    z-index: 9999;
+    z-index: 9;
     display: flex;
     align-items: center;
     justify-content: center;
