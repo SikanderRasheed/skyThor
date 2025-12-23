@@ -13,7 +13,7 @@ const Topbar = () => {
                 </div>
                 <div className='txt'>
                     <p className='f-16 f700 text-white text-center mb-2'>PLAY WITHOUT LIMITS - Install Skythor APP</p>
-                    <div className="d-flex align-items-center justify-content-center gap-1">
+                    <div className="d-none d-lg-flex align-items-center justify-content-center gap-1">
                         <div className="playBtn">
                             <a href="javascript:;">
                                 <img src={Apple} alt="Apple" className='img-fluid' />
@@ -24,6 +24,13 @@ const Topbar = () => {
                             <a href="javascript:;">
                                 <img src={Andriod} alt="Apple" className='img-fluid' />
                                 <span className='text-white f700 f-14'>Andriod</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div className="d-lg-none d-flex align-items-center justify-content-center">
+                        <div className="playBtn">
+                            <a href="javascript:;">
+                                <span className='text-white f700 f-14'>Download Now</span>
                             </a>
                         </div>
                     </div>

@@ -16,7 +16,16 @@ const Winner = () => {
         slidesToShow: 5,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000
+        autoplaySpeed: 2000,
+        responsive: [
+            {
+                breakpoint: 1099,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+            },
+        ]
     };
 
     return (
@@ -26,7 +35,7 @@ const Winner = () => {
                 <div className="row">
                     <div className="col-12 col-lg-5">
                         <div className="row">
-                            <div className="col-lg-4" style={{ padding: "0 0 0 13px" }}>
+                            <div className="col-4 column_padding">
                                 <div className="image_wrapper">
                                     <div className="img">
                                         <img src={Image1} alt="Image" className='img-fluid w-100' />
@@ -40,7 +49,7 @@ const Winner = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 p-0">
+                            <div className="col-4 p-0">
                                 <div className="image_wrapper">
                                     <div className="img">
                                         <img src={Image1} alt="Image" className='img-fluid w-100' />
@@ -54,7 +63,7 @@ const Winner = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 p-0">
+                            <div className="col-4 p-0">
                                 <div className="image_wrapper">
                                     <div className="img">
                                         <img src={Image1} alt="Image" className='img-fluid w-100' />
@@ -70,7 +79,7 @@ const Winner = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-7 col-12" style={{ padding: "0 13px 0 0px" }}>
+                    <div className="col-lg-7 col-12 slider_padding">
                         <div className="winnerSlider">
                             <Slider {...winnerSlider}>
                                 <div className="slides">

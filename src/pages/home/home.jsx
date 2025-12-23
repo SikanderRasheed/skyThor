@@ -24,6 +24,7 @@ import Card1 from "../../assets/images/card1.webp"
 import Card2 from "../../assets/images/card2.webp"
 import Card3 from "../../assets/images/card3.webp"
 import Card4 from "../../assets/images/card4.webp"
+import BottomBar from '../../components/BottomBar/BottomBar';
 
 const Home = () => {
 
@@ -47,7 +48,7 @@ const Home = () => {
             children: (
                 <>
                     <div className="row">
-                        <div className="col-lg-4">
+                        <div className="col-8 col-lg-4">
                             <Cards
                                 image={Tab1}
                                 title="Valley Of The Gods"
@@ -65,7 +66,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-8">
+                        <div className="col-4 col-lg-8">
                             <div className="row">
                                 <div className="col-lg-3">
                                     <Cards
@@ -103,7 +104,7 @@ const Home = () => {
                                         }
                                     />
                                 </div>
-                                <div className="col-lg-3">
+                                <div className="col-lg-3 d-lg-block d-none">
                                     <Cards
                                         image={Tab4}
                                         title="Valley Of The Gods"
@@ -121,7 +122,7 @@ const Home = () => {
                                         }
                                     />
                                 </div>
-                                <div className="col-lg-3">
+                                <div className="col-lg-3 d-lg-block d-none">
                                     <Cards
                                         image={Tab5}
                                         title="Valley Of The Gods"
@@ -139,7 +140,7 @@ const Home = () => {
                                         }
                                     />
                                 </div>
-                                <div className="col-lg-3">
+                                <div className="col-lg-3 d-lg-block d-none">
                                     <Cards
                                         image={Tab6}
                                         title="Valley Of The Gods"
@@ -157,7 +158,7 @@ const Home = () => {
                                         }
                                     />
                                 </div>
-                                <div className="col-lg-3">
+                                <div className="col-lg-3 d-lg-block d-none">
                                     <Cards
                                         image={Tab7}
                                         title="Valley Of The Gods"
@@ -175,7 +176,7 @@ const Home = () => {
                                         }
                                     />
                                 </div>
-                                <div className="col-lg-3">
+                                <div className="col-lg-3 d-lg-block d-none">
                                     <Cards
                                         image={Tab8}
                                         title="Valley Of The Gods"
@@ -193,7 +194,7 @@ const Home = () => {
                                         }
                                     />
                                 </div>
-                                <div className="col-lg-3">
+                                <div className="col-lg-3 d-lg-block d-none">
                                     <Cards
                                         image={Tab9}
                                         title="Valley Of The Gods"
@@ -213,7 +214,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab10}
                                 title="Valley Of The Gods"
@@ -231,7 +232,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab11}
                                 title="Valley Of The Gods"
@@ -249,7 +250,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab12}
                                 title="Valley Of The Gods"
@@ -267,7 +268,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab2}
                                 title="Valley Of The Gods"
@@ -285,7 +286,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab3}
                                 title="Valley Of The Gods"
@@ -303,7 +304,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab4}
                                 title="Valley Of The Gods"
@@ -321,7 +322,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab5}
                                 title="Valley Of The Gods"
@@ -339,7 +340,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab6}
                                 title="Valley Of The Gods"
@@ -357,7 +358,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab7}
                                 title="Valley Of The Gods"
@@ -375,7 +376,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab8}
                                 title="Valley Of The Gods"
@@ -393,7 +394,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab9}
                                 title="Valley Of The Gods"
@@ -411,7 +412,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab10}
                                 title="Valley Of The Gods"
@@ -439,7 +440,7 @@ const Home = () => {
             children: (
                 <>
                     <div className="row">
-                        <div className="col-lg-4">
+                        <div className="col-4">
                             <Cards
                                 image={Tab1}
                                 title="Valley Of The Gods"
@@ -457,7 +458,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-8">
+                        <div className="col-8">
                             <div className="row">
                                 <div className="col-lg-3">
                                     <Cards
@@ -605,7 +606,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab10}
                                 title="Valley Of The Gods"
@@ -623,7 +624,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab11}
                                 title="Valley Of The Gods"
@@ -641,7 +642,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab12}
                                 title="Valley Of The Gods"
@@ -659,7 +660,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab2}
                                 title="Valley Of The Gods"
@@ -677,7 +678,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab3}
                                 title="Valley Of The Gods"
@@ -695,7 +696,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab4}
                                 title="Valley Of The Gods"
@@ -713,7 +714,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab5}
                                 title="Valley Of The Gods"
@@ -731,7 +732,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab6}
                                 title="Valley Of The Gods"
@@ -749,7 +750,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab7}
                                 title="Valley Of The Gods"
@@ -767,7 +768,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab8}
                                 title="Valley Of The Gods"
@@ -785,7 +786,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab9}
                                 title="Valley Of The Gods"
@@ -803,7 +804,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab10}
                                 title="Valley Of The Gods"
@@ -831,7 +832,7 @@ const Home = () => {
             children: (
                 <>
                     <div className="row">
-                        <div className="col-lg-4">
+                        <div className="col-4">
                             <Cards
                                 image={Tab13}
                                 title="Valley Of The Gods"
@@ -849,7 +850,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-8">
+                        <div className="col-8">
                             <div className="row">
                                 <div className="col-lg-3">
                                     <Cards
@@ -925,7 +926,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab10}
                                 title="Valley Of The Gods"
@@ -943,7 +944,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab11}
                                 title="Valley Of The Gods"
@@ -961,7 +962,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab12}
                                 title="Valley Of The Gods"
@@ -979,7 +980,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab2}
                                 title="Valley Of The Gods"
@@ -997,7 +998,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab3}
                                 title="Valley Of The Gods"
@@ -1015,7 +1016,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab4}
                                 title="Valley Of The Gods"
@@ -1033,7 +1034,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab5}
                                 title="Valley Of The Gods"
@@ -1051,7 +1052,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab6}
                                 title="Valley Of The Gods"
@@ -1069,7 +1070,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab7}
                                 title="Valley Of The Gods"
@@ -1087,7 +1088,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab8}
                                 title="Valley Of The Gods"
@@ -1105,7 +1106,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab9}
                                 title="Valley Of The Gods"
@@ -1123,7 +1124,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab10}
                                 title="Valley Of The Gods"
@@ -1151,7 +1152,7 @@ const Home = () => {
             children: (
                 <>
                     <div className="row">
-                        <div className="col-lg-4">
+                        <div className="col-4">
                             <Cards
                                 image={Tab1}
                                 title="Valley Of The Gods"
@@ -1169,7 +1170,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-8">
+                        <div className="col-8">
                             <div className="row">
                                 <div className="col-lg-3">
                                     <Cards
@@ -1317,7 +1318,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab10}
                                 title="Valley Of The Gods"
@@ -1335,7 +1336,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab11}
                                 title="Valley Of The Gods"
@@ -1353,7 +1354,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab12}
                                 title="Valley Of The Gods"
@@ -1371,7 +1372,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab2}
                                 title="Valley Of The Gods"
@@ -1389,7 +1390,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab3}
                                 title="Valley Of The Gods"
@@ -1407,7 +1408,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab4}
                                 title="Valley Of The Gods"
@@ -1425,7 +1426,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab5}
                                 title="Valley Of The Gods"
@@ -1443,7 +1444,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab6}
                                 title="Valley Of The Gods"
@@ -1461,7 +1462,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab7}
                                 title="Valley Of The Gods"
@@ -1479,7 +1480,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab8}
                                 title="Valley Of The Gods"
@@ -1497,7 +1498,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab9}
                                 title="Valley Of The Gods"
@@ -1515,7 +1516,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab10}
                                 title="Valley Of The Gods"
@@ -1543,7 +1544,7 @@ const Home = () => {
             children: (
                 <>
                     <div className="row">
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab2}
                                 title="Valley Of The Gods"
@@ -1561,7 +1562,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab3}
                                 title="Valley Of The Gods"
@@ -1579,7 +1580,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab4}
                                 title="Valley Of The Gods"
@@ -1597,7 +1598,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab5}
                                 title="Valley Of The Gods"
@@ -1615,7 +1616,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab6}
                                 title="Valley Of The Gods"
@@ -1633,7 +1634,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab7}
                                 title="Valley Of The Gods"
@@ -1651,7 +1652,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab8}
                                 title="Valley Of The Gods"
@@ -1669,7 +1670,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab9}
                                 title="Valley Of The Gods"
@@ -1687,7 +1688,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab10}
                                 title="Valley Of The Gods"
@@ -1705,7 +1706,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab11}
                                 title="Valley Of The Gods"
@@ -1723,7 +1724,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab12}
                                 title="Valley Of The Gods"
@@ -1741,7 +1742,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab10}
                                 title="Valley Of The Gods"
@@ -1759,7 +1760,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab10}
                                 title="Valley Of The Gods"
@@ -1777,7 +1778,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab11}
                                 title="Valley Of The Gods"
@@ -1795,7 +1796,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab12}
                                 title="Valley Of The Gods"
@@ -1813,7 +1814,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab2}
                                 title="Valley Of The Gods"
@@ -1831,7 +1832,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab3}
                                 title="Valley Of The Gods"
@@ -1849,7 +1850,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab4}
                                 title="Valley Of The Gods"
@@ -1867,7 +1868,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab5}
                                 title="Valley Of The Gods"
@@ -1885,7 +1886,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab6}
                                 title="Valley Of The Gods"
@@ -1903,7 +1904,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab7}
                                 title="Valley Of The Gods"
@@ -1921,7 +1922,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab8}
                                 title="Valley Of The Gods"
@@ -1939,7 +1940,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab9}
                                 title="Valley Of The Gods"
@@ -1957,7 +1958,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab10}
                                 title="Valley Of The Gods"
@@ -1985,7 +1986,7 @@ const Home = () => {
             children: (
                 <>
                     <div className="row">
-                        <div className="col-lg-4">
+                        <div className="col-4">
                             <Cards
                                 image={Tab1}
                                 title="Valley Of The Gods"
@@ -2003,7 +2004,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-8">
+                        <div className="col-8">
                             <div className="row">
                                 <div className="col-lg-3">
                                     <Cards
@@ -2151,7 +2152,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab10}
                                 title="Valley Of The Gods"
@@ -2169,7 +2170,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab11}
                                 title="Valley Of The Gods"
@@ -2187,7 +2188,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab12}
                                 title="Valley Of The Gods"
@@ -2205,7 +2206,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab2}
                                 title="Valley Of The Gods"
@@ -2223,7 +2224,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab3}
                                 title="Valley Of The Gods"
@@ -2241,7 +2242,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab4}
                                 title="Valley Of The Gods"
@@ -2259,7 +2260,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab5}
                                 title="Valley Of The Gods"
@@ -2277,7 +2278,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab6}
                                 title="Valley Of The Gods"
@@ -2295,7 +2296,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab7}
                                 title="Valley Of The Gods"
@@ -2313,7 +2314,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab8}
                                 title="Valley Of The Gods"
@@ -2331,7 +2332,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab9}
                                 title="Valley Of The Gods"
@@ -2349,7 +2350,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab10}
                                 title="Valley Of The Gods"
@@ -2377,7 +2378,7 @@ const Home = () => {
             children: (
                 <>
                     <div className="row">
-                        <div className="col-lg-4">
+                        <div className="col-4">
                             <Cards
                                 image={Tab1}
                                 title="Valley Of The Gods"
@@ -2395,7 +2396,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-8">
+                        <div className="col-8">
                             <div className="row">
                                 <div className="col-lg-3">
                                     <Cards
@@ -2543,7 +2544,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab10}
                                 title="Valley Of The Gods"
@@ -2561,7 +2562,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab11}
                                 title="Valley Of The Gods"
@@ -2579,7 +2580,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab12}
                                 title="Valley Of The Gods"
@@ -2597,7 +2598,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab2}
                                 title="Valley Of The Gods"
@@ -2615,7 +2616,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab3}
                                 title="Valley Of The Gods"
@@ -2633,7 +2634,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab4}
                                 title="Valley Of The Gods"
@@ -2651,7 +2652,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab5}
                                 title="Valley Of The Gods"
@@ -2669,7 +2670,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab6}
                                 title="Valley Of The Gods"
@@ -2687,7 +2688,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab7}
                                 title="Valley Of The Gods"
@@ -2705,7 +2706,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab8}
                                 title="Valley Of The Gods"
@@ -2723,7 +2724,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab9}
                                 title="Valley Of The Gods"
@@ -2741,7 +2742,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab10}
                                 title="Valley Of The Gods"
@@ -2769,7 +2770,7 @@ const Home = () => {
             children: (
                 <>
                     <div className="row">
-                        <div className="col-lg-4">
+                        <div className="col-4">
                             <Cards
                                 image={Tab1}
                                 title="Valley Of The Gods"
@@ -2787,7 +2788,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-8">
+                        <div className="col-8">
                             <div className="row">
                                 <div className="col-lg-3">
                                     <Cards
@@ -2935,7 +2936,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab10}
                                 title="Valley Of The Gods"
@@ -2953,7 +2954,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab11}
                                 title="Valley Of The Gods"
@@ -2971,7 +2972,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab12}
                                 title="Valley Of The Gods"
@@ -2989,7 +2990,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab2}
                                 title="Valley Of The Gods"
@@ -3007,7 +3008,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab3}
                                 title="Valley Of The Gods"
@@ -3025,7 +3026,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab4}
                                 title="Valley Of The Gods"
@@ -3043,7 +3044,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab5}
                                 title="Valley Of The Gods"
@@ -3061,7 +3062,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab6}
                                 title="Valley Of The Gods"
@@ -3079,7 +3080,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab7}
                                 title="Valley Of The Gods"
@@ -3097,7 +3098,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab8}
                                 title="Valley Of The Gods"
@@ -3115,7 +3116,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab9}
                                 title="Valley Of The Gods"
@@ -3133,7 +3134,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab10}
                                 title="Valley Of The Gods"
@@ -3161,7 +3162,7 @@ const Home = () => {
             children: (
                 <>
                     <div className="row">
-                        <div className="col-lg-4">
+                        <div className="col-4">
                             <Cards
                                 image={Tab1}
                                 title="Valley Of The Gods"
@@ -3179,7 +3180,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-8">
+                        <div className="col-8">
                             <div className="row">
                                 <div className="col-lg-3">
                                     <Cards
@@ -3327,7 +3328,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab10}
                                 title="Valley Of The Gods"
@@ -3345,7 +3346,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab11}
                                 title="Valley Of The Gods"
@@ -3363,7 +3364,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab12}
                                 title="Valley Of The Gods"
@@ -3381,7 +3382,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab2}
                                 title="Valley Of The Gods"
@@ -3399,7 +3400,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab3}
                                 title="Valley Of The Gods"
@@ -3417,7 +3418,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab4}
                                 title="Valley Of The Gods"
@@ -3435,7 +3436,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab5}
                                 title="Valley Of The Gods"
@@ -3453,7 +3454,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab6}
                                 title="Valley Of The Gods"
@@ -3471,7 +3472,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab7}
                                 title="Valley Of The Gods"
@@ -3489,7 +3490,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab8}
                                 title="Valley Of The Gods"
@@ -3507,7 +3508,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab9}
                                 title="Valley Of The Gods"
@@ -3525,7 +3526,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab10}
                                 title="Valley Of The Gods"
@@ -3553,7 +3554,7 @@ const Home = () => {
             children: (
                 <>
                     <div className="row">
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab2}
                                 title="Valley Of The Gods"
@@ -3571,7 +3572,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab10}
                                 title="Valley Of The Gods"
@@ -3589,7 +3590,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab4}
                                 title="Valley Of The Gods"
@@ -3607,7 +3608,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab5}
                                 title="Valley Of The Gods"
@@ -3625,7 +3626,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab6}
                                 title="Valley Of The Gods"
@@ -3643,7 +3644,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab7}
                                 title="Valley Of The Gods"
@@ -3661,7 +3662,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab8}
                                 title="Valley Of The Gods"
@@ -3679,7 +3680,7 @@ const Home = () => {
                                 }
                             />
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-4 col-lg-2">
                             <Cards
                                 image={Tab9}
                                 title="Valley Of The Gods"
@@ -3810,6 +3811,7 @@ const Home = () => {
             <Promotion data={tournamentCardContent} />
             <Winner />
             <Footer />
+            <BottomBar />
         </>
     )
 }

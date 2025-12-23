@@ -24,8 +24,14 @@ const AppHeader = () => {
     return (
         <>
             <Header className="custom-header">
-                <div className="d-flex align-items-center gap-4">
-                    <ul className="d-flex gap-3 mb-0">
+                <div className="header_wrapper d-flex align-items-center gap-4">
+                    <Button
+                        className="mobile-menu-btn"
+                        icon={<MenuOutlined />}
+                        onClick={() => setOpen(true)}
+                    />
+
+                    <ul className="d-flex gap-3 mb-0 d-lg-flex d-none">
                         {menuItems.map(item => (
                             <li key={item.key}>
                                 <a href={item.href} className="text-white f700">{item.label}</a>
@@ -35,6 +41,15 @@ const AppHeader = () => {
 
                     <div className="logo">
                         <img src={Logo} alt="Logo" />
+                    </div>
+
+                    <div className="login_btn d-lg-none d-block">
+                        <Button className="login-btn" onClick={() => {
+                            setAuthModalOpen(true)
+                            setAuthType("login")
+                        }}>
+                            Login
+                        </Button>
                     </div>
                 </div>
 
@@ -53,12 +68,6 @@ const AppHeader = () => {
                     </Button>
                     <div className="lang-icon">🌐</div>
                 </div>
-
-                <Button
-                    className="mobile-menu-btn"
-                    icon={<MenuOutlined />}
-                    onClick={() => setOpen(true)}
-                />
             </Header>
 
             {/* LOGIN MODAL */}
@@ -87,7 +96,9 @@ const AppHeader = () => {
             {/* MOBILE DRAWER */}
             <Drawer open={open} onClose={() => setOpen(false)}>
                 {menuItems.map(item => (
-                    <p key={item.key}>{item.label}</p>
+                    <li key={item.key} className="mb-4">
+                        <a href={item.href} className="text-white f700">{item.label}</a>
+                    </li>
                 ))}
             </Drawer>
         </>
