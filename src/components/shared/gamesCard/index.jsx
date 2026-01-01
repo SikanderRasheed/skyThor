@@ -9,7 +9,7 @@ const GamesCards = ({ image, timer, timerHeading, sharedBtn, overlay }) => {
     const [modalOpen, setModalOpen] = useState(false);
     const [authType, setAuthType] = useState("learn More")
 
-    const targetDate = new Date("2025-12-31T00:00:00");
+    const targetDate = new Date("2026-07-31T00:00:00");
 
     const calculateTimeLeft = () => {
         const now = new Date();

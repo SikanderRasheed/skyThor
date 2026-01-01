@@ -16,7 +16,7 @@ const AppHeader = () => {
     const menuItems = [
         { key: "1", label: "CASINO", href: "/" },
         { key: "2", label: "LIVE CASINO", href: "#tabs" },
-        { key: "3", label: "SPORT BETTING", href: "/" },
+        { key: "3", label: "SPORT BETTING", href: "/overview" },
         { key: "4", label: "PROMOTIONS", href: "#promotions" },
         { key: "5", label: "TOURNAMENTS", href: "#tournament" }
     ];

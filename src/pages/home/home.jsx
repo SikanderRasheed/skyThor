@@ -4,7 +4,6 @@ import CustomTabs from '../../components/shared/tabs'
 import Cards from '../../components/shared/card';
 import Promotion from '../../components/Promotion/Promotion';
 import Winner from '../../components/Winner/Winner';
-import Footer from '../../components/Footer/Footer';
 // Images
 import Tab1 from "../../assets/images/tabs1.webp"
 import Tab2 from "../../assets/images/tab2.webp"
@@ -24,7 +23,6 @@ import Card1 from "../../assets/images/card1.webp"
 import Card2 from "../../assets/images/card2.webp"
 import Card3 from "../../assets/images/card3.webp"
 import Card4 from "../../assets/images/card4.webp"
-import BottomBar from '../../components/BottomBar/BottomBar';
 
 const Home = () => {
 
@@ -3810,8 +3808,6 @@ const Home = () => {
             <Promotion data={promotionCardContent} />
             <Promotion data={tournamentCardContent} />
             <Winner />
-            <Footer />
-            <BottomBar />
         </>
     )
 }
